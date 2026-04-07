@@ -14,6 +14,7 @@ size = Vector2(159, 175)
 [node name="Main" type="Node2D" unique_id=1039953597]
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=881949546]
+z_index = -10
 offset_top = 5.0
 offset_right = 1927.0
 offset_bottom = 1082.0
@@ -37,6 +38,7 @@ position = Vector2(150, 890)
 script = ExtResource("5_3dxm6")
 
 [node name="Sprite2D" type="Sprite2D" parent="Deck" unique_id=2132724859]
+z_index = -2
 position = Vector2(1.0000057, 14.999986)
 scale = Vector2(2.625, 2.1041667)
 texture = ExtResource("5_fos0i")
@@ -48,6 +50,16 @@ collision_mask = 4
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Deck/Area2D" unique_id=622943003]
 position = Vector2(1.5, 20.5)
 shape = SubResource("RectangleShape2D_cm0pq")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Deck" unique_id=1840982220]
+modulate = Color(1, 0, 0, 1)
+z_index = -2
+offset_left = -9.0
+offset_top = -28.0
+offset_right = 31.0
+offset_bottom = 12.0
+scale = Vector2(2, 2)
+text = "0"
 
 [node name="InputManger" type="Node2D" parent="." unique_id=971712613]
 script = ExtResource("7_lgr22")
