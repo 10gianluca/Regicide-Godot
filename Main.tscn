@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bkd475c2n3hbu"]
+
+[ext_resource type="Script" uid="uid://di671tbcwr6on" path="res://CardManager.gd" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://grxc0sxt8dok" path="res://card.tscn" id="2_r0du0"]
+[ext_resource type="PackedScene" uid="uid://bt7oh2hjh21pb" path="res://CardSlot.tscn" id="3_r0du0"]
+[ext_resource type="Texture2D" uid="uid://bx4kna3yxjcju" path="res://Assets/jungle-landscape-pixel-art-style.jpg" id="4_cm0pq"]
+
+[node name="Main" type="Node2D" unique_id=1039953597]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=881949546]
+offset_right = 1154.0
+offset_bottom = 648.0
+texture = ExtResource("4_cm0pq")
+expand_mode = 3
+
+[node name="CardManager" type="Node2D" parent="." unique_id=195886569]
+script = ExtResource("1_uu6xs")
+
+[node name="Card" parent="CardManager" unique_id=877386745 instance=ExtResource("2_r0du0")]
+position = Vector2(639, 481)
+
+[node name="Card2" parent="CardManager" unique_id=872123548 instance=ExtResource("2_r0du0")]
+position = Vector2(462, 484)
+
+[node name="CardSlot" parent="." unique_id=1371780906 instance=ExtResource("3_r0du0")]
+position = Vector2(551, 168)

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bt7oh2hjh21pb"]
+
+[ext_resource type="Script" uid="uid://cbdo5lwie8scm" path="res://CardSlot.gd" id="1_mt86f"]
+[ext_resource type="Texture2D" uid="uid://c4wqr2d7we06" path="res://Assets/CardDeck_By_VerzatileDev/Individual/PlayingCards_g378.png" id="2_mt86f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cm0pq"]
+size = Vector2(241, 390)
+
+[node name="CardSlot" type="Node2D" unique_id=1371780906]
+script = ExtResource("1_mt86f")
+
+[node name="CardSlotImage" type="Sprite2D" parent="." unique_id=1631723746]
+position = Vector2(-2.9802322e-08, -0.99998856)
+scale = Vector2(0.4898375, 0.43797472)
+texture = ExtResource("2_mt86f")
+
+[node name="Area2D" type="Area2D" parent="CardSlotImage" unique_id=203745198]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CardSlotImage/Area2D" unique_id=319234433]
+position = Vector2(0, -4.5776367e-05)
+shape = SubResource("RectangleShape2D_cm0pq")
