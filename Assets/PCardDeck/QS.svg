@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050">
+    <defs>
+      <linearGradient id="parchment" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#f8eed2"/>
+        <stop offset="55%" stop-color="#f2e4c0"/>
+        <stop offset="100%" stop-color="#ead7aa"/>
+      </linearGradient>
+      <linearGradient id="parchmentDark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#e8d2a0" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="#cda96a" stop-opacity="0.55"/>
+      </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#2b1d10" flood-opacity="0.15"/>
+      </filter>
+      <pattern id="mapGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+        <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#8e6d3f" stroke-width="1" opacity="0.08"/>
+      </pattern>
+    </defs>
+
+
+      <rect x="24" y="24" width="702" height="1002" rx="36" ry="36"
+            fill="url(#parchment)" stroke="#5f4320" stroke-width="7" filter="url(#shadow)"/>
+      <rect x="40" y="40" width="670" height="970" rx="28" ry="28"
+            fill="none" stroke="#1b1815" stroke-width="3" opacity="0.35"/>
+      <rect x="54" y="54" width="642" height="942" rx="24" ry="24"
+            fill="url(#mapGrid)" opacity="0.35"/>
+      <path d="M96 82 H654" stroke="#7c5a2d" stroke-width="2" stroke-dasharray="10 8" opacity="0.30"/>
+      <path d="M96 968 H654" stroke="#7c5a2d" stroke-width="2" stroke-dasharray="10 8" opacity="0.30"/>
+      <g opacity="0.24">
+        <circle cx="112" cy="110" r="14" fill="none" stroke="#7c5a2d" stroke-width="2"/>
+        <circle cx="638" cy="110" r="14" fill="none" stroke="#7c5a2d" stroke-width="2"/>
+        <circle cx="112" cy="940" r="14" fill="none" stroke="#7c5a2d" stroke-width="2"/>
+        <circle cx="638" cy="940" r="14" fill="none" stroke="#7c5a2d" stroke-width="2"/>
+      </g>
+    
+
+      <g transform="translate(375,128) scale(0.8125)" opacity="0.16">
+        <circle cx="0" cy="0" r="26" fill="none" stroke="#8e6d3f" stroke-width="2"/>
+        <path d="M0 -28 L5 -5 L0 0 L-5 -5 Z M28 0 L5 5 L0 0 L5 -5 Z M0 28 L-5 5 L0 0 L5 5 Z M-28 0 L-5 -5 L0 0 L-5 5 Z"
+              fill="#8e6d3f"/>
+        <path d="M0 -18 L0 18 M-18 0 L18 0 M-13 -13 L13 13 M13 -13 L-13 13" stroke="#8e6d3f" stroke-width="1.5"/>
+      </g>
+    
+
+      <g transform="translate(375,922) scale(0.8125)" opacity="0.16">
+        <circle cx="0" cy="0" r="26" fill="none" stroke="#8e6d3f" stroke-width="2"/>
+        <path d="M0 -28 L5 -5 L0 0 L-5 -5 Z M28 0 L5 5 L0 0 L5 -5 Z M0 28 L-5 5 L0 0 L5 5 Z M-28 0 L-5 -5 L0 0 L-5 5 Z"
+              fill="#8e6d3f"/>
+        <path d="M0 -18 L0 18 M-18 0 L18 0 M-13 -13 L13 13 M13 -13 L-13 13" stroke="#8e6d3f" stroke-width="1.5"/>
+      </g>
+    
+
+      <g>
+        <text x="74" y="96" text-anchor="middle" font-family="Georgia, Garamond, serif"
+              font-size="68" font-weight="700" fill="#1b1815">Q</text>
+        <g transform="translate(74,150) scale(0.28)">
+        <g>
+          <path d="M0 -92 C-10 -68 -34 -52 -54 -34 C-72 -18 -78 2 -78 18 C-78 48 -54 68 -24 68 C-6 68 4 58 0 44 C-4 58 6 68 24 68 C54 68 78 48 78 18 C78 2 72 -18 54 -34 C34 -52 10 -68 0 -92 Z" fill="#1b1815"/>
+          <path d="M-14 58 C-14 86 -24 92 -28 114 L28 114 C24 92 14 86 14 58 Z" fill="#1b1815"/>
+          <path d="M-26 34 H26 M0 34 V80" stroke="#d2ab61" stroke-width="6" stroke-linecap="round" opacity="0.72"/>
+        </g></g>
+      </g>
+      <g transform="rotate(180 676 954)">
+        <text x="676" y="954" text-anchor="middle" font-family="Georgia, Garamond, serif"
+              font-size="68" font-weight="700" fill="#1b1815">Q</text>
+        <g transform="translate(676,1008) scale(0.28)">
+        <g>
+          <path d="M0 -92 C-10 -68 -34 -52 -54 -34 C-72 -18 -78 2 -78 18 C-78 48 -54 68 -24 68 C-6 68 4 58 0 44 C-4 58 6 68 24 68 C54 68 78 48 78 18 C78 2 72 -18 54 -34 C34 -52 10 -68 0 -92 Z" fill="#1b1815"/>
+          <path d="M-14 58 C-14 86 -24 92 -28 114 L28 114 C24 92 14 86 14 58 Z" fill="#1b1815"/>
+          <path d="M-26 34 H26 M0 34 V80" stroke="#d2ab61" stroke-width="6" stroke-linecap="round" opacity="0.72"/>
+        </g></g>
+      </g>
+    
+
+      
+      <g transform="translate(375.0,525.0) scale(6.5625)" opacity="0.1">
+        <circle cx="0" cy="0" r="26" fill="none" stroke="#8e6d3f" stroke-width="2"/>
+        <path d="M0 -28 L5 -5 L0 0 L-5 -5 Z M28 0 L5 5 L0 0 L5 -5 Z M0 28 L-5 5 L0 0 L5 5 Z M-28 0 L-5 -5 L0 0 L-5 5 Z"
+              fill="#8e6d3f"/>
+        <path d="M0 -18 L0 18 M-18 0 L18 0 M-13 -13 L13 13 M13 -13 L-13 13" stroke="#8e6d3f" stroke-width="1.5"/>
+      </g>
+    <ellipse cx="375" cy="525" rx="184" ry="252" fill="#f3e5bf" stroke="#7a5a2d" stroke-width="4" opacity="0.9"/><ellipse cx="375" cy="525" rx="160" ry="228" fill="none" stroke="#b99251" stroke-width="2" stroke-dasharray="10 8" opacity="0.75"/>
+      <g opacity="0.28">
+        <path d="M190 230 C230 200, 280 186, 330 186 H420 C470 186, 520 200, 560 230" fill="none" stroke="#1b1815" stroke-width="4" stroke-linecap="round"/>
+        <path d="M190 820 C230 850, 280 864, 330 864 H420 C470 864, 520 850, 560 820" fill="none" stroke="#1b1815" stroke-width="4" stroke-linecap="round"/>
+      </g>
+    
+          <path d="M274 404 C286 360, 334 334, 375 334 C416 334, 464 360, 476 404" fill="#3a332b" opacity="0.22"/>
+          <path d="M320 410 L345 368 L375 404 L405 368 L430 410 L405 426 L375 390 L345 426 Z" fill="#d7b56c" stroke="#5b3d1a" stroke-width="4"/>
+          <circle cx="375" cy="486" r="68" fill="#efddba" stroke="#5b3d1a" stroke-width="4"/>
+          <path d="M312 454 C322 420, 428 420, 438 454 L438 484 H312 Z" fill="#1b1815" stroke="#5b3d1a" stroke-width="4"/>
+          <circle cx="352" cy="490" r="7" fill="#5b3d1a"/>
+          <circle cx="398" cy="490" r="7" fill="#5b3d1a"/>
+          <path d="M352 524 Q375 538 398 524" stroke="#5b3d1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M320 516 C328 618, 422 618, 430 516" fill="#1b1815" stroke="#5b3d1a" stroke-width="4"/>
+          <path d="M322 528 C340 566, 352 592, 375 616 C398 592, 410 566, 428 528" fill="none" stroke="#d7b56c" stroke-width="5" opacity="0.8"/>
+          <circle cx="375" cy="634" r="18" fill="#d7b56c" stroke="#5b3d1a" stroke-width="4"/>
+          <path d="M375 652 L375 700" stroke="#5b3d1a" stroke-width="5"/>
+          <path d="M350 680 C365 698, 385 698, 400 680" fill="none" stroke="#5b3d1a" stroke-width="5"/>
+        <g transform="translate(375,725) scale(0.35)">
+        <g>
+          <path d="M0 -92 C-10 -68 -34 -52 -54 -34 C-72 -18 -78 2 -78 18 C-78 48 -54 68 -24 68 C-6 68 4 58 0 44 C-4 58 6 68 24 68 C54 68 78 48 78 18 C78 2 72 -18 54 -34 C34 -52 10 -68 0 -92 Z" fill="#1b1815"/>
+          <path d="M-14 58 C-14 86 -24 92 -28 114 L28 114 C24 92 14 86 14 58 Z" fill="#1b1815"/>
+          <path d="M-26 34 H26 M0 34 V80" stroke="#d2ab61" stroke-width="6" stroke-linecap="round" opacity="0.72"/>
+        </g></g>
+      
+      <g transform="translate(0,230)">
+        <path d="M247.0 0 L503.0 0 L479.0 28 L271.0 28 Z" fill="#d9c08a" stroke="#7a5a2d" stroke-width="2"/>
+        <text x="375" y="21" text-anchor="middle" font-family="Georgia, Garamond, serif" font-size="22" letter-spacing="2" fill="#50381e">CORSAIR QUEEN</text>
+      </g>
+    
+      
+      <g transform="translate(0,796)">
+        <path d="M265.0 0 L485.0 0 L461.0 28 L289.0 28 Z" fill="#ceb075" stroke="#7a5a2d" stroke-width="2"/>
+        <text x="375" y="21" text-anchor="middle" font-family="Georgia, Garamond, serif" font-size="20" letter-spacing="2" fill="#50381e">ANCHOR SIGIL</text>
+      </g>
+    
+    
+</svg>

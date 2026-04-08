@@ -23,11 +23,11 @@ func draw_card():
 	$RichTextLabel.text = str(player_deck.size())
 	var card_scene = preload(CARD_SCENE_PATH)
 	var new_card = card_scene.instantiate()
-	var card_image_path = str("res://Assets/CardDeck/" + card_drawn_name + ".svg")
+	var card_image_path = str("res://Assets/PCardDeck/" + card_drawn_name + ".svg")
 	new_card.get_node("CardImage").texture = load(card_image_path)
 	new_card.get_node("Attack").text = str(card_database_reference.CARDS[card_drawn_name][0])
 	new_card.get_node("Health").text = str(card_database_reference.CARDS[card_drawn_name][1])
 	$"../CardManager".add_child(new_card)
 	new_card.name = "Card"
 	$"../PlayerHand".add_card_to_hand(new_card, CARD_DRAWN_SPEED)
-	print(card_image_path)
+	new_card.get_node("AnimationPlayer").play("card_flip")

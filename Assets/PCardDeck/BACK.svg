@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050">
+      <defs>
+        <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#23465b"/>
+          <stop offset="100%" stop-color="#102935"/>
+        </linearGradient>
+        <pattern id="ropeDots" width="30" height="30" patternUnits="userSpaceOnUse">
+          <circle cx="15" cy="15" r="2" fill="#d7b56c" opacity="0.5"/>
+        </pattern>
+      </defs>
+      <rect x="24" y="24" width="702" height="1002" rx="36" ry="36" fill="url(#sea)" stroke="#d7b56c" stroke-width="8"/>
+      <rect x="54" y="54" width="642" height="942" rx="24" ry="24" fill="none" stroke="#d7b56c" stroke-width="3" opacity="0.7"/>
+      <rect x="68" y="68" width="614" height="914" rx="18" ry="18" fill="url(#ropeDots)" opacity="0.5"/>
+      <g opacity="0.94">
+        <g transform="translate(375,525)">
+          <circle cx="0" cy="0" r="200" fill="none" stroke="#d7b56c" stroke-width="4" stroke-dasharray="8 10"/>
+          <circle cx="0" cy="0" r="160" fill="none" stroke="#d7b56c" stroke-width="2" opacity="0.7"/>
+          <path d="M0 -240 L12 -48 L0 0 L-12 -48 Z M240 0 L48 12 L0 0 L48 -12 Z M0 240 L-12 48 L0 0 L12 48 Z M-240 0 L-48 -12 L0 0 L-48 12 Z" fill="#d7b56c" opacity="0.8"/>
+          <path d="M0 -150 L0 150 M-150 0 L150 0 M-108 -108 L108 108 M108 -108 L-108 108" stroke="#d7b56c" stroke-width="3" opacity="0.7"/>
+          <g transform="scale(0.9)">
+        <g>
+          <path d="M0 -92 C-10 -68 -34 -52 -54 -34 C-72 -18 -78 2 -78 18 C-78 48 -54 68 -24 68 C-6 68 4 58 0 44 C-4 58 6 68 24 68 C54 68 78 48 78 18 C78 2 72 -18 54 -34 C34 -52 10 -68 0 -92 Z" fill="#d7b56c"/>
+          <path d="M-14 58 C-14 86 -24 92 -28 114 L28 114 C24 92 14 86 14 58 Z" fill="#d7b56c"/>
+          
+        </g></g>
+          <g transform="translate(-120,-120) scale(0.2)">
+        <g>
+          <path d="M0 44 C-56 10 -76 -22 -76 -50 C-76 -76 -58 -92 -36 -92 C-19 -92 -8 -82 0 -66 C8 -82 19 -92 36 -92 C58 -92 76 -76 76 -50 C76 -22 56 10 0 44 Z" fill="#d7b56c"/>
+          
+        </g></g>
+          <g transform="translate(120,-120) scale(0.2)">
+        <g>
+          <path d="M0 -88 L72 0 L0 88 L-72 0 Z" fill="#d7b56c"/>
+          <path d="M0 -88 L0 88 M-72 0 L72 0" stroke="#d7b56c" stroke-width="4" opacity="0.15"/>
+          
+        </g></g>
+          <g transform="translate(-120,120) scale(0.2)">
+        <g>
+          <circle cx="-36" cy="-6" r="34" fill="#d7b56c"/>
+          <circle cx="36" cy="-6" r="34" fill="#d7b56c"/>
+          <circle cx="0" cy="-52" r="34" fill="#d7b56c"/>
+          <path d="M-14 18 C-14 44 -24 50 -28 70 L28 70 C24 50 14 44 14 18 Z" fill="#d7b56c"/>
+          
+        </g></g>
+          <g transform="translate(120,120) scale(0.2)">
+        <g>
+          <path d="M0 -92 C-10 -68 -34 -52 -54 -34 C-72 -18 -78 2 -78 18 C-78 48 -54 68 -24 68 C-6 68 4 58 0 44 C-4 58 6 68 24 68 C54 68 78 48 78 18 C78 2 72 -18 54 -34 C34 -52 10 -68 0 -92 Z" fill="#d7b56c"/>
+          <path d="M-14 58 C-14 86 -24 92 -28 114 L28 114 C24 92 14 86 14 58 Z" fill="#d7b56c"/>
+          
+        </g></g>
+        </g>
+      </g>
+    </svg>

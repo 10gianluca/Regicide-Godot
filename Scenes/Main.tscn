@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://bkd475c2n3hbu"]
 
-[ext_resource type="Texture2D" uid="uid://dbkpsys54cc26" path="res://Assets/jungle-landscape-pixel-art-style.jpg" id="1_jw32o"]
+[ext_resource type="Texture2D" uid="uid://c4pyukds3ygbv" path="res://Assets/PWall.png" id="1_jw32o"]
 [ext_resource type="Script" uid="uid://di671tbcwr6on" path="res://Scripts/CardManager.gd" id="2_50glp"]
 [ext_resource type="PackedScene" uid="uid://bt7oh2hjh21pb" path="res://Scenes/CardSlot.tscn" id="3_vy5pj"]
 [ext_resource type="Script" uid="uid://boey71bfuevms" path="res://Scripts/PlayerHand.gd" id="4_bmxlf"]
 [ext_resource type="Script" uid="uid://li8ntf61064j" path="res://Scripts/deck.gd" id="5_4kpch"]
-[ext_resource type="Texture2D" uid="uid://dqfuh4mr05fqk" path="res://Assets/CardDeck/BACK.svg" id="6_jw32o"]
+[ext_resource type="Texture2D" uid="uid://vo620xjyjysf" path="res://Assets/PCardDeck/BACK.svg" id="6_jw32o"]
 [ext_resource type="Script" uid="uid://c1v4aya8d682y" path="res://Scripts/InputManger.gd" id="7_frkhe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cm0pq"]
