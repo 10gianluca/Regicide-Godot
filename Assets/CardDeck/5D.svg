@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050">
+  <rect x="24" y="24" width="702" height="1002" rx="36" ry="36"
+        fill="#ffffff" stroke="#1b1b1b" stroke-width="6"/>
+  <rect x="36" y="36" width="678" height="978" rx="26" ry="26"
+        fill="none" stroke="#c62828" stroke-width="2" opacity="0.15"/>
+  
+    <g>
+      <text x="70" y="86" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+            font-size="76" font-weight="700" fill="#c62828">5</text>
+      <g transform="translate(70,138) scale(0.48)">
+        
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        
+      </g>
+    </g>
+    
+  
+    <g transform="rotate(180 680 964)">
+      <text x="680" y="964" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+            font-size="76" font-weight="700" fill="#c62828">5</text>
+      <g transform="translate(680,1016) scale(0.48)">
+        
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        
+      </g>
+    </g>
+    
+  <g transform="translate(225.0,294.0) scale(0.720)">
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        </g>
+<g transform="translate(525.0,294.0) scale(0.720)">
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        </g>
+<g transform="translate(375.0,525.0) scale(0.720)">
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        </g>
+<g transform="translate(225.0,756.0) scale(0.720) rotate(180)">
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        </g>
+<g transform="translate(525.0,756.0) scale(0.720) rotate(180)">
+        <g fill="#c62828">
+          <polygon points="0,-54 44,0 0,54 -44,0"/>
+        </g>
+        </g>
+</svg>

@@ -13,7 +13,6 @@ config_version=5
 config/name="Regicide"
 run/main_scene="uid://bkd475c2n3hbu"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
 
 [display]
 

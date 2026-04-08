@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050">
+  <rect x="24" y="24" width="702" height="1002" rx="36" ry="36"
+        fill="#ffffff" stroke="#1b1b1b" stroke-width="6"/>
+  <rect x="36" y="36" width="678" height="978" rx="26" ry="26"
+        fill="none" stroke="#111111" stroke-width="2" opacity="0.15"/>
+  
+    <g>
+      <text x="70" y="86" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+            font-size="66" font-weight="700" fill="#111111">10</text>
+      <g transform="translate(70,138) scale(0.48)">
+        
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        
+      </g>
+    </g>
+    
+  
+    <g transform="rotate(180 680 964)">
+      <text x="680" y="964" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+            font-size="66" font-weight="700" fill="#111111">10</text>
+      <g transform="translate(680,1016) scale(0.48)">
+        
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        
+      </g>
+    </g>
+    
+  <g transform="translate(225.0,189.0) scale(0.560)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(525.0,189.0) scale(0.560)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(375.0,294.0) scale(0.560)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(225.0,399.0) scale(0.560)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(525.0,399.0) scale(0.560)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(225.0,651.0) scale(0.560) rotate(180)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(525.0,651.0) scale(0.560) rotate(180)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(375.0,756.0) scale(0.560) rotate(180)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(225.0,861.0) scale(0.560) rotate(180)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+<g transform="translate(525.0,861.0) scale(0.560) rotate(180)">
+        <g fill="#111111">
+          <circle cx="-22" cy="18" r="23"/>
+          <circle cx="22" cy="18" r="23"/>
+          <path d="M -45 8 C -45 -20, -18 -34, 0 -55 C 18 -34, 45 -20, 45 8 L 0 -38 Z"/>
+          <path d="M -10 24 C -10 46, -18 50, -22 64 L 22 64 C 18 50, 10 46, 10 24 Z"/>
+        </g>
+        </g>
+</svg>

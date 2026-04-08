@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://grxc0sxt8dok"]
 
-[ext_resource type="Script" uid="uid://dlkcyd500rvq4" path="res://card.gd" id="1_rjlel"]
-[ext_resource type="Texture2D" uid="uid://55i24kudm7i4" path="res://Assets/CardDeck_By_VerzatileDev/Individual/PlayingCards_g323.png" id="2_rjlel"]
+[ext_resource type="Script" uid="uid://dlkcyd500rvq4" path="res://Scripts/card.gd" id="1_rjlel"]
+[ext_resource type="Texture2D" uid="uid://co0v0gc8tvskn" path="res://Assets/CardDeck/2C.svg" id="2_wf8id"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rjlel"]
 size = Vector2(113, 153)
@@ -10,16 +10,34 @@ size = Vector2(113, 153)
 position = Vector2(150, 890)
 script = ExtResource("1_rjlel")
 
-[node name="2Club" type="Sprite2D" parent="." unique_id=1098522313]
-position = Vector2(0.50000274, 4.5000024)
-scale = Vector2(0.45934957, 0.38734177)
-texture = ExtResource("2_rjlel")
+[node name="CardImage" type="Sprite2D" parent="." unique_id=1098522313]
+position = Vector2(-0.50000083, 3.5000029)
+scale = Vector2(0.16133335, 0.15142861)
+texture = ExtResource("2_wf8id")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=493282147]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1842839415]
 position = Vector2(0, 3.5)
 shape = SubResource("RectangleShape2D_rjlel")
+
+[node name="Attack" type="RichTextLabel" parent="." unique_id=45345805]
+modulate = Color(0.48574972, 0.0025070345, 0.20019439, 1)
+offset_left = -47.0
+offset_top = 36.0
+offset_right = -7.0
+offset_bottom = 76.0
+scale = Vector2(2, 2)
+text = "0"
+
+[node name="Health" type="RichTextLabel" parent="." unique_id=565907559]
+modulate = Color(0, 0.4624043, 0.46246213, 1)
+offset_left = 13.0
+offset_top = 36.0
+offset_right = 53.0
+offset_bottom = 76.0
+scale = Vector2(2, 2)
+text = "0"
 
 [connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
 [connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
