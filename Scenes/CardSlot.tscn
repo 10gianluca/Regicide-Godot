@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bt7oh2hjh21pb"]
 
-[ext_resource type="Script" uid="uid://cbdo5lwie8scm" path="res://Scripts/CardSlot.gd" id="1_mt86f"]
+[ext_resource type="Script" uid="uid://cbdo5lwie8scm" path="res://Scripts/MonsterCardSlot.gd" id="1_mt86f"]
 [ext_resource type="Texture2D" uid="uid://c4wqr2d7we06" path="res://Assets/CardDeck_By_VerzatileDev/Individual/PlayingCards_g378.png" id="2_mt86f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cm0pq"]

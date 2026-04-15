@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://eisdq4mvmayb"]
+
+[ext_resource type="Script" uid="uid://cbdo5lwie8scm" path="res://Scripts/MonsterCardSlot.gd" id="1_338b4"]
+[ext_resource type="Texture2D" uid="uid://c4wqr2d7we06" path="res://Assets/CardDeck_By_VerzatileDev/Individual/PlayingCards_g378.png" id="2_pa7lj"]
+
+[node name="CardSlot" type="Node2D" unique_id=1371780906]
+script = ExtResource("1_338b4")
+
+[node name="CardSlotImage" type="Sprite2D" parent="." unique_id=1631723746]
+position = Vector2(-2.9802322e-08, -0.99998856)
+scale = Vector2(0.4898375, 0.43797472)
+texture = ExtResource("2_pa7lj")

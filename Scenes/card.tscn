@@ -164,7 +164,8 @@ _data = {
 }
 
 [node name="Card" type="Node2D" unique_id=877386745]
-position = Vector2(150, 890)
+position = Vector2(140, 955)
+scale = Vector2(0.8, 0.8)
 script = ExtResource("1_rjlel")
 
 [node name="CardImage" type="Sprite2D" parent="." unique_id=1098522313]
